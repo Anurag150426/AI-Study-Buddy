@@ -13,6 +13,4 @@ python-multipart
 python-dotenv
 docx2txt
 python-pptx
-easyocr
-unstructured
 numpy>=1.24.0
