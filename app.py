@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
+import os
 
-API="http://localhost:8000"
+API = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 st.set_page_config(
     page_title="AI Study Buddy",
